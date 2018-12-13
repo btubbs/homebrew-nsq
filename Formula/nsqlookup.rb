@@ -1,4 +1,4 @@
-class Nsq < Formula
+class Nsqlookup < Formula
   desc "Realtime distributed messaging platform"
   homepage "https://nsq.io/"
   url "https://github.com/nsqio/nsq/archive/v1.1.0.tar.gz"
