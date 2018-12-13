@@ -15,6 +15,7 @@ class Nsq < Formula
 
   depends_on "dep" => :build
   depends_on "go" => :build
+	depends_on "btubbs/nsq/nsq"
 
   def install
     ENV["GOPATH"] = buildpath
