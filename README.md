@@ -23,7 +23,7 @@ If you do a `brew install nsq`, and then a `brew services start nsq`, you end up
 NSQ-wise.  While nsqd will be running, you won't have an nsqlookupd.  So most of the NSQ examples
 you find online won't work.  If you start an nsqlookupd separately, it still won't work, because the
 plist file created by the default formula doesn't start nsqd with the necessary arguments to find
-and use an nsqlookupd.
+and use nsqlookupd.
 
 This can be very frustrating for someone just trying to get a "Hello World"-level app working with
 NSQ, on MacOS.
