@@ -8,18 +8,14 @@ There are two steps to using this fork:
 1. If you have already installed the default nsq formula that comes with Homebrew, make sure that
    its stopped and uninstalled.
 
-        ```bash
         brew services stop nsq
         brew uninstall nsq
-        ```
 
 2. Then install this fork and run its services like so:
 
-        ```bash
         brew install btubbs/nsq/nsqlookup
         brew services start btubbs/nsq/nsqlookup
         brew services start btubbs/nsq/nsq
-        ```
 
 ## Why does this fork exist?
 
