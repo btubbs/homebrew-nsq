@@ -6,7 +6,7 @@ formula](https://github.com/Homebrew/homebrew-core/blob/master/Formula/nsq.rb).
 There are two steps to using this fork:
 
 1. If you have already installed the default nsq formula that comes with Homebrew, make sure that
-   its stopped and uninstalled.
+   it's stopped and uninstalled.
 
         brew services stop nsq
         brew uninstall nsq
